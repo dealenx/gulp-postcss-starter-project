@@ -1,0 +1,13 @@
+$blue : blue;
+
+.box {
+    border-radius: 10px;
+}
+
+.box {
+    font-weight: 700;
+}
+
+.box {
+    color: $blue;
+}
