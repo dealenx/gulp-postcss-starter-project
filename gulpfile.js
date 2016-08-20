@@ -7,7 +7,7 @@ var processors = [
 	require('cssnext')(), //https://github.com/MoOx/postcss-cssnext
 	require('postcss-quantity-queries')(), //https://github.com/pascalduez/postcss-quantity-queries
 	require('postcss-short')(), //https://github.com/jonathantneal/postcss-short
-	require('postcss-import')(), //https://github.com/jonathantneal/postcss-short
+	require('postcss-import')(), //https://github.com/postcss/postcss-import
 ];
 
 // CSS task
