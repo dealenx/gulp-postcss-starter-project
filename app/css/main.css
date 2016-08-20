@@ -1,7 +1,12 @@
 $blue : blue;
 
 .item {
-    border-radius: 10px;
+    color: $blue;
+    display: flex;
+
+    p {
+    	size: (20 * 2)px;
+    }
 }
 
 .item {
@@ -11,4 +16,7 @@ $blue : blue;
     &:hover {
 		border-radius: 12px;
     }
+
+
 }
+
