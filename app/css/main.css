@@ -3,17 +3,11 @@ $blue : blue;
 .box {
     border-radius: 10px;
 }
-
 .box {
     font-weight: 700;
 }
 
 .item {
     background-image: url('../img/test.png');
-    width : 602px;
-    height : 108px;
-}
-
-.box {
-    color: $blue;
+    size: size('../img/test.png');
 }
