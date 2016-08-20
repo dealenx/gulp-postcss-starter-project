@@ -7,3 +7,5 @@ The starter project for frontend-development
   * [postcss-quantity-queries](https://github.com/postcss/autoprefixer/)
   * [postcss-short](https://github.com/jonathantneal/postcss-short)
   * [postcss-import](https://github.com/postcss/postcss-import)
+  * [postcss-assets](https://github.com/assetsjs/postcss-assets)
+  * [postcss-short](https://github.com/assetsjs/postcss-short)
