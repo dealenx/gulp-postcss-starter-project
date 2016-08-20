@@ -9,7 +9,8 @@ var processors = [
 	require('postcss-short')(), //https://github.com/jonathantneal/postcss-short
 	require('postcss-import')(), //https://github.com/postcss/postcss-import
 	require('postcss-assets')(), //https://github.com/assetsjs/postcss-assets
-	require('postcss-short')(), //https://github.com/assetsjs/postcss-short
+	require('postcss-short')(), //https://github.com/jonathantneal/postcss-short
+	require('postcss-nested')(), //https://github.com/postcss/postcss-nested
 ];
 
 // CSS task

@@ -1,13 +1,14 @@
 $blue : blue;
 
-.box {
+.item {
     border-radius: 10px;
-}
-.box {
-    font-weight: 700;
 }
 
 .item {
-    background-image: url('../img/test.png');
+    background-image: inline('../img/test.png');
     size: size('../img/test.png');
+
+    &:hover {
+		border-radius: 12px;
+    }
 }
