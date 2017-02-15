@@ -2,7 +2,11 @@
 * @Author: Daniil Godoriloff
 * @Date:   2016-10-25T22:31:19+07:00
 * @Last modified by:   Daniil Godoriloff
+<<<<<<< HEAD
+* @Last modified time: 2017-02-15T22:06:22+07:00
+=======
 * @Last modified time: 2017-02-15T23:36:49+07:00
+>>>>>>> origin/master
 */
 
 
@@ -42,9 +46,15 @@ gulp.task('js', function() {
 		.pipe(browserSync.stream());
 });
 
+<<<<<<< HEAD
+gulp.task('html', function() {
+	return gulp
+		.src(input + "/**/*.html")
+=======
 gulp.task('php', function() {
 	return gulp
 		.src(input + "/**/*.php")
+>>>>>>> origin/master
 		//
 		.pipe(gulp.dest(output))
 		.pipe(browserSync.stream());
@@ -80,17 +90,28 @@ gulp.task('css', function() {
 });
 
 
+<<<<<<< HEAD
+gulp.task('serve', ['css','js','html','htaccess','upload'], function() {
+
+    browserSync.init({
+        proxy: "gulp-postcss-starter-project"
+=======
 gulp.task('serve', ['css','js','php','htaccess','upload'], function() {
 
     browserSync.init({
         proxy: "gulp-postcss-my-php-project"
+>>>>>>> origin/master
     });
 
     gulp.watch(input + "/css/*.css", ['css']);
     gulp.watch(input + "/**/*.js", ['js']);
     gulp.watch(input + "/upload/*.*", ['upload']);
 		gulp.watch(input + "/**/.htaccess", ['htaccess']);
+<<<<<<< HEAD
+		gulp.watch(input + "/**/*.html", ['html']).on('change', browserSync.reload);
+=======
 		gulp.watch(input + "/**/*.php", ['php']).on('change', browserSync.reload);
+>>>>>>> origin/master
 });
 
 

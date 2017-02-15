@@ -20,6 +20,8 @@
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-cssnano": "^2.1.2",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-html-tag-include": "^1.0.1",
     "gulp-minifier": "^0.1.4",
     "gulp-postcss": "^6.0.1",
     "postcss-assets": "^4.1.0",
