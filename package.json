@@ -14,19 +14,24 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
+    "browser-sync": "^2.14.0",
     "cssnext": "^1.8.3",
     "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-cssnano": "^2.1.2",
     "gulp-minifier": "^0.1.4",
     "gulp-postcss": "^6.0.1",
     "postcss-assets": "^4.1.0",
+    "postcss-closure-mixins": "^1.0.0",
+    "postcss-grid": "^2.0.0",
     "postcss-import": "^8.1.2",
+    "postcss-mixins": "^5.0.1",
     "postcss-nested": "^1.0.0",
     "postcss-nested-props": "^1.1.1",
     "postcss-quantity-queries": "^0.4.0",
+    "postcss-sassy-mixins": "^2.0.0",
     "postcss-short": "^1.4.0",
-    "postcss-simple-vars": "^3.0.0",
-    "precss": "^0.3.0"
+    "postcss-simple-vars": "^3.0.0"
   }
 }

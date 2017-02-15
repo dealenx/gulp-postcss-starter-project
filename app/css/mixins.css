@@ -1,0 +1,14 @@
+/**
+* @Author: Daniil Godoriloff <Dealenx>
+* @Date:   2016-10-25T22:57:50+07:00
+* @Last modified by:   Dealenx
+* @Last modified time: 2016-10-27T02:58:16+07:00
+*/
+
+
+
+
+@defmixin bg(var) {
+    background-image: inline(var);
+    size: size(var)
+}

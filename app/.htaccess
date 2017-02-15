@@ -1,0 +1,4 @@
+RewriteEngine On
+AddDefaultCharset UTF-8
+
+DirectoryIndex ./index.php?page=home

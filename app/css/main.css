@@ -1,22 +1,30 @@
+/**
+* @Author: Daniil Godoriloff
+* @Date:   2017-02-15T21:54:43+07:00
+* @Last modified by:   Daniil Godoriloff
+* @Last modified time: 2017-02-15T23:04:20+07:00
+*/
+
+/* Variables */
+$main: white;
 $blue : blue;
 
+/* MAIN */
 .item {
     color: $blue;
     display: flex;
+		width: 100%;
+
+		.img {
+			background-image: inline('../img/test.jpg');
+	    size: size('../img/test.jpg');
+
+			&:hover {
+				opacity: 0.5;
+	    }
+		}
 
     p {
     	size: (20 * 2)px;
     }
 }
-
-.item {
-    background-image: inline('../img/test.png');
-    size: size('../img/test.png');
-
-    &:hover {
-		border-radius: 12px;
-    }
-
-
-}
-
